@@ -1,5 +1,5 @@
 # Heartbreaker Buckshot (RAM Exploit)
-This is an exploit which bypasses the mandatory security check present in Skylanders Imaginators via the loaded RAM of the console and the "RAM" of the Portal of Power too. This is performed with 2 separate NFC tag dumps which can be written to two individual cards, and can be performed on unmodified consoles. A mirror to these files (which also includes some other files and is hosted by BoomBringer) can be found [here](#https://drive.google.com/file/d/1Py3QECJLKYehkDua5XE6rcs8hwfUGjCB/view).
+This is an exploit which bypasses the mandatory security check present in Skylanders Imaginators via the loaded RAM of the console and the "RAM" of the Portal of Power too. This is performed with 2 separate NFC tag dumps which can be written to two individual cards, and can be performed on unmodified consoles. A mirror to these files (which also includes some other files and is hosted by BoomBringer) can be found [here](https://drive.google.com/file/d/1Py3QECJLKYehkDua5XE6rcs8hwfUGjCB/view).
 
 This method is unlikely to work on the Nintendo Switch version of Skylanders Imaginators.
 
