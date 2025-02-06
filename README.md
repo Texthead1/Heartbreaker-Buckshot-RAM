@@ -12,6 +12,8 @@ A mandatory security check was employed into Imaginators as a means to prevent g
 
 Both of the dumps present here contain no signatures. The second dump takes advantage of a odd oversight in the Alchemy toolset Skylanders games when it comes to the Skylander loading routine. If a certain byte in the tag header is non-0, it is possible to load a Skylander previously stored in RAM, but only if that previous Skylander occupied the same figure index on the Portal of Power.
 
+More information in regards to this specific byte can be found [here](https://github.com/Texthead1/Runes/blob/master/Docs/SkylanderFormat.md#error-byte).
+
 ## Usage
 ### Actual Hardware
 #### Step 1
