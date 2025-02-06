@@ -17,7 +17,7 @@ Both of the dumps present here contain no signatures. The second dump takes adva
 #### Step 1
 I first suggest unplugging your Portal of Power from the console. Leave it for at least 2 seconds to ensure the internal components have fully reset before plugging it back in. The Portal of Power contains 16 "slots" that a figure can "exist" on (which are the same 16 slots you see when loading up digital Skylanders on an emulated Portal), and when the hardware is reset, the first figure will always occupy the first "slot".
 #### Step 2
-Place the Heartbreaker Buskhot dump on the Portal of Power. The game should show the Magic element symbol in the game, and soon afterwards display the corrupted Skylander dialog box. You can take the dump off of the Portal of Power now.
+Place the Heartbreaker Buckshot dump on the Portal of Power. The game should show the Magic element symbol in the game, and soon afterwards display the corrupted Skylander dialog box. You can take the dump off of the Portal of Power now.
 #### Step 3
 Plug back in the Portal of Power after the appropriate amount of time, and place down the "Error Bypass" dump on top of it. After a while of showing the Magic element in game, Heartbreaker Buckshot should (after quite a bit of time), successfully load in. Note that no data is actually pulled or saved to and from the Error Bypass dump; Heartbreaker's data is all loaded directly from RAM. There are some known issues with his upgrades, Sky-Chi, and other aspects, acting odd or outright dissapearing between levels.
 
