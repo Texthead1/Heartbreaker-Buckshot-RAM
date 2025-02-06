@@ -5,7 +5,7 @@ This method is unlikely to work on the Nintendo Switch version of Skylanders Ima
 
 The exploit was discovered by Texthead - who just so happens to be me ;)
 
-These two dumps were created exclusively for this exploit using a custom figure generator. The first dump is a broken Heartbreaker Buckshot dump, and the second dump is the "Error Bypass" dump. These dumps have also been shared elsewhere and are present in the Ultimate Skylanders NFC Pack on the Internet Archive, albeit without any credit. Both dumps contain the Heartbreaker Buskhot character ID and variant ID (which is mostly irrelevant for the second dump as it can be used to load up any character). The IDs can be found [here](https://github.com/Texthead1/Skylander-IDs?tab=readme-ov-file#imaginators-1)
+These two dumps were created exclusively for this exploit using a custom figure generator. The first dump is a broken Heartbreaker Buckshot dump, and the second dump is the "Error Bypass" dump. These dumps have also been shared elsewhere and are present in the Ultimate Skylanders NFC Pack on the Internet Archive, albeit without any credit. Both dumps contain the Heartbreaker Buskhot character ID and variant ID (which is mostly irrelevant for the second dump as it can be used to load up any character). The IDs can be found [here](https://github.com/Texthead1/Skylander-IDs?tab=readme-ov-file#imaginators-1).
 
 ## Notes
 A security check was added to Imaginators as a means to prevent generated dumps of the characters. This check reads digital signatures within the Skylander and validates if it's correct. Due to the asymetric cryptography applied, I am lead to believe it is impossible to generate custom Heartbreaker Buskshot dumps (or any Sensei for that matter) without a security leak, or just an official dump from an actual figure.
@@ -17,9 +17,9 @@ Both of the dumps present here contain no signatures. The second dump takes adva
 #### Step 1
 I first suggest unplugging your Portal of Power from the console. Leave it for at least 2 seconds to ensure the internal components have fully reset before plugging it back in. The Portal of Power contains 16 "slots" that a figure can "exist" on (which are the same 16 slots you see when loading up digital Skylanders on an emulated Portal), and when the hardware is reset, the first figure will always occupy the first "slot".
 #### Step 2
-Place the Heartbreaker Buckshot dump on the Portal of Power. The game should show the Magic element symbol in the game, and soon afterwards display the corrupted Skylander dialog box. You can take the dump off of the Portal of Power now.
+Place the Heartbreaker Buckshot dump on the Portal of Power. The game should show the Magic element symbol in the game, and soon afterwards display the corrupted Skylander dialog box. You can unplug the Portal of Power and take off the dump .
 #### Step 3
-Plug back in the Portal of Power after the appropriate amount of time, and place down the "Error Bypass" dump on top of it. After a while of showing the Magic element in game, Heartbreaker Buckshot should (after quite a bit of time), successfully load in. Note that no data is actually pulled or saved to and from the Error Bypass dump; Heartbreaker's data is all loaded directly from RAM. There are some known issues with his upgrades, Sky-Chi, and other aspects, acting odd or outright dissapearing between levels.
+Plug back in the Portal of Power after a while and place down the "Error Bypass" dump on top of it. After a while of showing the Magic element in game, Heartbreaker Buckshot should (after quite a bit of time), successfully load in. Note that no data is actually pulled from or saved to the Error Bypass dump; Heartbreaker's data is all loaded directly from RAM. There are some known issues with his upgrades, Sky-Chi, and other aspects, acting odd or outright dissapearing between levels.
 
 It is not too strict on when you remove or place down the dumps. You can swap them out while the Portal of Power is plugged in or unplugged if you please.
 ### Emulated Portal
